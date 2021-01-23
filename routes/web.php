@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\RouteController;
+use App\Http\Controllers\PmsnController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +17,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.v_home');
 });
+
+// About
+Route::get('/about', [AboutController::class, 'c_about']);
+
+// route
+Route::get('/route', [RouteController::class, 'c_route']);
+Route::get('/route/informasi', [RouteController::class, 'c_informasi']);
+
+// pemesanan
+Route::get('/pemesanan', [PmsnController::class, 'c_pemesanan']);
