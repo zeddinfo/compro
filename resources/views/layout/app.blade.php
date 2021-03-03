@@ -25,6 +25,8 @@
   <link href="{{url('template/assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
   <link href="{{url('template/assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   <link href="{{url('template/assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
 
   <!-- Template Main CSS File -->
   <link href="template/assets/css/style.css" rel="stylesheet">
@@ -226,6 +228,21 @@
     bottom: 30px;
     transform: rotate(-225deg);
     }
+    #hero .carousel{
+      width: 50%;
+      /* margin: 35px; */
+      top: 80px;
+      left: 55px;
+      right: 55px;
+      bottom: 55px;
+    }
+    .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+      color: #fdf498;
+    }
+    #header.header-scrolled, #header.header-inner-pages {
+    background: #058716;
+}
+
     </style>
 
 </head>
@@ -260,57 +277,50 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
-      <div class="carousel-inner" role="listbox">
-
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(template/assets/img/slide/slide-1.png)">
-          <div class="carousel-container">
-            <div class="container">
-              <h2 class="animated fadeInDown">Welcome to <span>Hidayah</span></h2>
-              <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+    <div>
+      <div class="section_carousel">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+    
+          <div class="carousel-inner" role="listbox">
+    
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="carousel-container">
+                <img src="http://placehold.it/1000x800&amp;text=First+Slide">
+              </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(template/assets/img/slide/slide-2.png)">
-          <div class="carousel-container">
-            <div class="container">
-              <h2 class="animated fadeInDown">Lorem Ipsum Dolor</h2>
-              <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+    
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="carousel-container">
+                <img src="http://placehold.it/1000x800&amp;text=Second+Slide">
+              </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(template/assets/img/slide/promo.jpg)">
-          <div class="carousel-container">
-            <div class="container">
-              <h2 class="animated fadeInDown">Sequi ea ut et est quaerat</h2>
-              <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+    
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="carousel-container">
+                <img src="http://placehold.it/1000x800&amp;text=Third+Slide">
+              </div>
             </div>
+    
           </div>
+    
+          <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+    
+          <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    
         </div>
-
       </div>
-
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-
+ 
     </div>
   </section><!-- End Hero -->
 
@@ -367,6 +377,87 @@
 
       </div>
     </section><!-- End Services Section -->
+
+     <!-- ======= About Section ======= -->
+     <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Kota Tujuan</h2>
+          <h3>Check our <span>Services</span></h3>
+          <p>Kami menawarkan tujuan dari beberapa kota besa.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch">
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <div id="accordion">
+              <h3>Semarang</h3>
+              <div>
+                <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                </p>
+              </div>
+              <h3>Temanggung</h3>
+              <div>
+                <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                </p>
+              </div>
+              <h3>Banjarnegara</h3>
+              <div>
+                <p>
+                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                suscipit faucibus urna.
+                </p>
+              </div>
+              <h3>Kudus</h3>
+              <div>
+                <p>
+                Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                </p>
+                <ul>
+                  <li>List item one</li>
+                  <li>List item two</li>
+                  <li>List item three</li>
+                </ul>
+              </div>
+              <h3>Pati</h3>
+              <div>
+                <p>
+                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                mauris vel est.
+                </p>
+                <p>
+                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
 
     {{-- <!-- ======= Testimonials Section ======= -->
     <section id="rute" class="testimonials section-bg">
@@ -727,10 +818,17 @@
   <script src="{{url('template/assets/vendor/counterup/counterup.min.js')}}"></script>
   <script src="{{url('template/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
   <script src="{{url('template/assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
   <!-- Template Main JS File -->
   <script src="{{url('template/assets/js/main.js')}}"></script>
 
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+    </script>
 </body>
 
 </html>
