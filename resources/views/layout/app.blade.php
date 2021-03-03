@@ -381,13 +381,13 @@
     </section><!-- End Services Section -->
 
      <!-- ======= About Section ======= -->
-     <section id="about" class="about">
+     <section id="rute" class="about">
       <div class="container-fluid">
 
         <div class="section-title">
           <h2>Kota Tujuan</h2>
-          <h3>Check our <span>Services</span></h3>
-          <p>Kami menawarkan tujuan dari beberapa kota besa.</p>
+          <h3>Kemana Aja <span>Sultan Armadhani Travel</span> Mengantarmu</h3>
+          <p>Kami menawarkan tujuan dari beberapa kota besar.</p>
         </div>
 
         <div class="row justify-content-center">
@@ -576,8 +576,8 @@
       <div class="container-fluid">
 
         <div class="section-title">
-          <h2>Wisata</h2>
-          <h3>Apa Saja <span> Wisata Yang Kami Tawarkan</span></h3>
+          <h2>Paket Kilat</h2>
+          <h3>Tujuan <span>Paket Kilat</span></h3>
           <p>Siap mengantar perjalanan anda dengan aman dan nyaman.</p>
         </div>
 
@@ -586,7 +586,7 @@
             <div class="row">                
               <div class="col-md-6">
                 <div class="member">
-                  <img src="{{asset('template/')}}/assets/img/paket_wisata/JOGJA.jpg" class="img-fluid" alt="">
+                  <img src="{{asset('template/')}}/assets/img/tujuan/paket_kilat_1.jpg" class="img-fluid" alt="">
                   <div class="member-info">
                     <div class="member-info-content text-center">
                         <br>
@@ -599,7 +599,7 @@
               </div> <!-- End Member Item -->       
               <div class="col-md-6">
                 <div class="member mt-4 mt-lg-0">
-                  <img src="{{asset('template/')}}/assets/img/paket_wisata/SEMARANG.jpg" class="img-fluid" alt="">
+                  <img src="{{asset('template/')}}/assets/img/tujuan/paket_kilat_2.jpg" class="img-fluid" alt="">
                   <div class="member-info">
                     <div class="member-info-content text-center">
                         <br>
@@ -610,6 +610,84 @@
                   </div>
                 </div>
               </div> <!-- End Member Item -->   
+              <div class="col-md-6">
+                <div class="member mt-4">
+                  <img src="{{asset('template/')}}/assets/img/tujuan/1.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->  
+              <div class="col-md-6">
+                <div class="member mt-4">
+                  <img src="{{asset('template/')}}/assets/img/tujuan/2.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->  
+              <div class="col-md-6">
+                <div class="member mt-4">
+                  <img src="{{asset('template/')}}/assets/img/tujuan/3.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->  
+              <div class="col-md-6">
+                <div class="member mt-4">
+                  <img src="{{asset('template/')}}/assets/img/tujuan/4.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->  
+              <div class="col-md-6">
+                <div class="member mt-4">
+                  <img src="{{asset('template/')}}/assets/img/tujuan/5.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->  
+              <div class="col-md-6">
+                <div class="member mt-4">
+                  <img src="{{asset('template/')}}/assets/img/tujuan/6.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->  
             </div>
           </div>
         </div>
