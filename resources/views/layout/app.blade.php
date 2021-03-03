@@ -265,6 +265,8 @@
               <li class="active"><a href="index.html">Beranda</a></li>
               <li><a href="#services">Service Kami</a></li>
               <li><a href="#rute">Rute</a></li>
+              <li><a href="#wisata">Paket Wisata</a></li>
+              <li><a href="#paket">Paket Kilat</a></li>
               <li><a href="#promo">Promo</a></li>
               <li><a href="#contact">Pemesanan</a></li>
             </ul>
@@ -288,7 +290,7 @@
             <!-- Slide 1 -->
             <div class="carousel-item active">
               <div class="carousel-container">
-                <img src="http://placehold.it/1000x800&amp;text=First+Slide">
+                <img src="{{asset('template/assets/img/slide/slide-1.png')}}">
               </div>
             </div>
     
@@ -395,60 +397,95 @@
 
           <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
             <div id="accordion">
-              <h3>Semarang</h3>
+              <h3>Pati</h3>
+              <div>
+                  <p>Pati - Semarang</p>
+                  <p>Pati - Kudus</p>
+                  <p>Pati - Temanggung</p>
+                  <p>Pati - Wonosobo</p>
+                  <p>Pati - Banjarnegara</p>
+                  <p>Pati - Purwokerto</p>
+              </div>
+              <h3>Kudus</h3>
               <div>
                 <p>
-                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                  <p>Kudus - Pati</p>
+                  <p>Kudus - Semarang</p>
+                  <p>Kudus - Temanggung</p>
+                  <p>Kudus - Wonosobo</p>
+                  <p>Kudus - Banjarnegara</p>
+                  <p>Kudus - Purwokerto</p>
                 </p>
+              </div>
+              <h3>Semarang</h3>
+              <div>
+                <p>Semarang - Pati</p>
+                <p>Semarang - Kudus</p>
+                <p>Semarang - Temanggung</p>
+                <p>Semarang - Wonosobo</p>
+                <p>Semarang - Banjarnegara</p>
+                <p>Semarang - Purwokerto</p>
+                <p>Semarang - Jakarta</p>
+                <p>Semarang - Blora</p>
               </div>
               <h3>Temanggung</h3>
               <div>
+                <p>Temanggung - Pati</p>
+                <p>Temanggung - Kudus</p>
+                <p>Temanggung - Semarang</p>
+                <p>Temanggung - Wonosobo</p>
+                <p>Temanggung - Banjarnegara</p>
+                <p>Temanggung - Purwokerto</p>
+              </div>
+              <h3>Wonosobo</h3>
+              <div>
                 <p>
-                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                  <p>Wonosobo - Pati</p>
+                  <p>Wonosobo - Kudus</p>
+                  <p>Wonosobo - Temanggung</p>
+                  <p>Wonosobo - Semarang</p>
+                  <p>Wonosobo - Banjarnegara</p>
+                  <p>Wonosobo - Purwokerto</p>
+                  <p>Wonosobo - Yogyakarta</p>
                 </p>
               </div>
               <h3>Banjarnegara</h3>
               <div>
                 <p>
-                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-                suscipit faucibus urna.
+                  <p>Banjarnegara - Pati</p>
+                  <p>Banjarnegara - Kudus</p>
+                  <p>Banjarnegara - Temanggung</p>
+                  <p>Banjarnegara - Wonosobo</p>
+                  <p>Banjarnegara - Semarang</p>
+                  <p>Banjarnegara - Purwokerto</p>
+                  <p>Banjarnegara - Jakarta</p>
+                  <p>Banjarnegara - Yogyakarta</p>
                 </p>
               </div>
-              <h3>Kudus</h3>
+              <h3>Purwokerto</h3>
               <div>
-                <p>
-                Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-                Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-                ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-                lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-                </p>
-                <ul>
-                  <li>List item one</li>
-                  <li>List item two</li>
-                  <li>List item three</li>
-                </ul>
+                <p>Purwokerto - Pati</p>
+                <p>Purwokerto - Kudus</p>
+                <p>Purwokerto - Temanggung</p>
+                <p>Purwokerto - Wonosobo</p>
+                <p>Purwokerto - Banjarnegara</p>
+                <p>Purwokerto - Semarang</p>
+                <p>Purwokerto - Blora</p>
               </div>
-              <h3>Pati</h3>
+              <h3>Jakarta</h3>
               <div>
-                <p>
-                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-                mauris vel est.
-                </p>
-                <p>
-                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                inceptos himenaeos.
-                </p>
+                <p>Jakarta - Banjarnegara</p>
+                <p>Jakarta - Semarang</p>
+              </div>
+              <h3>Blora</h3>
+              <div>
+                <p>Blora - Purwokerto</p>
+                <p>Blora - Semarang</p>
+              </div>
+              <h3>Yogyakarta</h3>
+              <div>
+                <p>Yogyakarta - Wonosobo</p>
+                <p>Yogyakarta - Banjarnegara</p>
               </div>
             </div>
 
@@ -459,104 +496,67 @@
     </section><!-- End About Section -->
 
 
-    {{-- <!-- ======= Testimonials Section ======= -->
-    <section id="rute" class="testimonials section-bg">
-        <div class="container-fluid">
-  
-          <div class="section-title">
-            <h2>Rute Armada</h2>
-            <h3>Kemana Aja<span> Sultan ADN Travel</span> Mengantarkanmu?</h3>
-          </div>
-  
-          <div class="row justify-content-center">
-            <div class="col-xl-10">
-  
-              <div class="row">
-  
-                <div class="col-lg-6">
-                  <div class="testimonial-item">
-                    <img src="template/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                    <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
+    <!-- ======= Services Section ======= -->
+    <section id="wisata" class="services">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Wisata</h2>
+          <h3>Apa Saja <span> Wisata Yang Kami Tawarkan</span></h3>
+          <p>Siap mengantar perjalanan anda dengan aman dan nyaman.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="row">                
+              <div class="col-md-6">
+                <div class="member">
+                  <img src="{{asset('template/')}}/assets/img/paket_wisata/JOGJA.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
                   </div>
-                </div><!-- End testimonial-item -->
-  
-                <div class="col-lg-6">
-                  <div class="testimonial-item mt-4 mt-lg-0">
-                    <img src="template/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                    <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
+                </div>
+              </div> <!-- End Member Item -->       
+              <div class="col-md-6">
+                <div class="member mt-4 mt-lg-0">
+                  <img src="{{asset('template/')}}/assets/img/paket_wisata/SEMARANG.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
                   </div>
-                </div><!-- End testimonial-item -->
-  
-                <div class="col-lg-6">
-                  <div class="testimonial-item mt-4">
-                    <img src="template/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial-item -->
-  
-                <div class="col-lg-6">
-                  <div class="testimonial-item mt-4">
-                    <img src="template/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                    <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial-item -->
-  
-                <div class="col-lg-6">
-                  <div class="testimonial-item mt-4">
-                    <img src="template/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                    <h3>John Larson</h3>
-                    <h4>Entrepreneur</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial-item -->
-  
-                <div class="col-lg-6">
-                  <div class="testimonial-item mt-4">
-                    <img src="template/assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
-                    <h3>Emily Harison</h3>
-                    <h4>Store Owner</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Eius ipsam praesentium dolor quaerat inventore rerum odio. Quos laudantium adipisci eius. Accusamus qui iste cupiditate sed temporibus est aspernatur. Sequi officiis ea et quia quidem.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial-item -->
-  
-              </div>
+                </div>
+              </div> <!-- End Member Item -->   
             </div>
           </div>
-  
         </div>
-      </section><!-- End Testimonials Section --> --}}
+
+        {{-- <div class="row justify-content-center">
+          <div class="col-xl-10">
+
+            <div class="row">
+
+              <div class="col-md-2">
+                <div class="wisata">
+                  <img src="{{asset('template/')}}/assets/img/paket_wisata/jogja.jpg">
+                </div>
+              </div><!-- End testimonial-item -->
+
+
+            </div>
+          </div>
+        </div> --}}
+
+      </div>
+    </section><!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -570,6 +570,69 @@
 
       </div>
     </section><!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="paket" class="services">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Wisata</h2>
+          <h3>Apa Saja <span> Wisata Yang Kami Tawarkan</span></h3>
+          <p>Siap mengantar perjalanan anda dengan aman dan nyaman.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="row">                
+              <div class="col-md-6">
+                <div class="member">
+                  <img src="{{asset('template/')}}/assets/img/paket_wisata/JOGJA.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->       
+              <div class="col-md-6">
+                <div class="member mt-4 mt-lg-0">
+                  <img src="{{asset('template/')}}/assets/img/paket_wisata/SEMARANG.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content text-center">
+                        <br>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->   
+            </div>
+          </div>
+        </div>
+
+        {{-- <div class="row justify-content-center">
+          <div class="col-xl-10">
+
+            <div class="row">
+
+              <div class="col-md-2">
+                <div class="wisata">
+                  <img src="{{asset('template/')}}/assets/img/paket_wisata/jogja.jpg">
+                </div>
+              </div><!-- End testimonial-item -->
+
+
+            </div>
+          </div>
+        </div> --}}
+
+      </div>
+    </section><!-- End Services Section -->
+
     <!-- ======= Testimonials Section ======= -->
     <section id="promo" class="testimonials section-bg">
       <div class="container-fluid">
@@ -595,7 +658,7 @@
                 <div>
                     <h5>Kini Hanya : Rp 50.000</h5>
                 </div>
-                <a class="cta-btn" href="#"><p>Pesan Sekarang</p></a>
+                <a class="cta-btn" href="https://api.whatsapp.com/send?phone=6281325688811" target="blank"><p>Pesan Sekarang</p></a>
             </div>
             </div>
           </div>
@@ -653,7 +716,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <h3>Get In Touch With <span>Us</span></h3>
+          <h3>Informasi</h3>
           <p>Jika ada pertanyaan jangan sungkan, kami layani dengan yang terbaik.</p>
         </div>
 
@@ -661,66 +724,33 @@
           <div class="col-xl-10">
             <div class="row">
 
-              <div class="col-lg-6">
+              <div class="col-lg">
 
                 <div class="row justify-content-center">
 
                   <div class="col-md-6 info d-flex flex-column align-items-stretch">
                     <i class="bx bx-map"></i>
-                    <h4>Address</h4>
-                    <p>A108 Adam Street,<br>New York, NY 535022</p>
+                    <h4>Kantor Pusat</h4>
+                    <p>jl. Ngesrep barat 3 no.32 G , semarang</p>
                   </div>
+
                   <div class="col-md-6 info d-flex flex-column align-items-stretch">
-                    <i class="bx bx-phone"></i>
-                    <h4>Call Us</h4>
-                    <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
+                      <i class="bx bx-map"></i>
+                      <h4>Kantor Cabang</h4>
+                      <p>komplek terminal binorong proyek mrica ,banjarnegara</p>
                   </div>
+
                   <div class="col-md-6 info d-flex flex-column align-items-stretch">
-                    <i class="bx bx-envelope"></i>
-                    <h4>Email Us</h4>
-                    <p>contact@example.com<br>info@example.com</p>
-                  </div>
-                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
-                    <i class="bx bx-time-five"></i>
-                    <h4>Working Hours</h4>
-                    <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                      <i class="bx bx-phone"></i>
+                      <h4>Call Us</h4>
+                      <a href="https://api.whatsapp.com/send?phone=6281325688811" target="blank" class="float-whatsapp">
+                          <span class="btn btn-dark">Chat Now</span>
+                      </a>
+                      <p>0813-2568-8811<br></p>
                   </div>
 
                 </div>
 
-              </div>
-
-              <div class="col-lg-6">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                  <div class="form-row">
-                    <div class="col-md-6 form-group">
-                      <label for="name">Your Name</label>
-                      <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                      <div class="validate"></div>
-                    </div>
-                    <div class="col-md-6 form-group">
-                      <label for="email">Your Email</label>
-                      <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
-                      <div class="validate"></div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validate"></div>
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" name="message" rows="8" data-rule="required" data-msg="Please write something for us"></textarea>
-                    <div class="validate"></div>
-                  </div>
-                  <div class="mb-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
               </div>
 
             </div>
@@ -764,11 +794,11 @@
               <div class="col-lg-3 col-md-6 footer-contact">
                 <h4>Contact Us</h4>
                 <p>
-                  A108 Adam Street <br>
-                  New York, NY 535022<br>
-                  United States <br><br>
-                  <strong>Phone:</strong> +1 5589 55488 55<br>
-                  <strong>Email:</strong> info@example.com<br>
+                  jl. Ngesrep barat 3 <br>
+                  no. 32 G<br>
+                  semarang <br><br>
+                  <strong>Phone:</strong> 0813-2568-8811<br>
+                  <strong>Email:</strong> sultanadntravel@gmail.com<br>
                 </p>
 
               </div>
